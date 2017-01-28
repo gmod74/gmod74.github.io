@@ -9,8 +9,8 @@ html * {
 
 /* GLOBAL STYLES */
 body {
-  background: #000000 !important;
-  color: #0a9a03 !important;
+  background: #1f1d1d !important;
+  color: #008000 !important;
   font-family: monospace;
   padding-top: 5em;
   display: flex;
@@ -20,7 +20,7 @@ body {
 /* DEMO-SPECIFIC STYLES */
 .terminal h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid green; /* The typwriter cursor */
+  border-right: .1em solid green; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
